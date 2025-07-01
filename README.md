@@ -22,11 +22,16 @@ Designed to showcase surf trips, lessons, and school info in an engaging and mob
 ## 📁 Project Structure
 
 ├── index.html
+
 ├── css/
-│   └── input.css        # Main stylesheet
+│   
+└── input.css        # Main stylesheet
+
 ├── images/              # All assets (logo, background, etc.)
+
 ├── js/
-│   └── main.js          # (Optional) Scripts or slider logic
+│   
+└── main.js          # (Optional) Scripts or slider logic
 
 ---
 
