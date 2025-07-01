@@ -1,295 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/input.css" />
 
-    <!-- slider js link -->
-    <link
-      href="
-        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-top">
-          <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#" class="nav-link">home</a></li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">activities</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/input.css" />
+
+  <!-- slider js link -->
+  <link href="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">activities</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">pricing plan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">contact us</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">about us</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header-phone" href="tel:+351912568342"><i class="fa-solid fa-phone"></i>+351912568342</a>
+      </div>
+      <img src="./images/logo.png" alt="logo" class="title-img" />
+      <h1 class="title visually-hidden">Surfing School</h1>
+      <p class="title-text">Vilamoura. Portugal</p>
+      <div class="header-content">
+        <div class="header-info">
+          <ul class="header-info-list">
+            <li class="header-info-item">Private lessons</li>
+            <li class="header-info-item">Group lessons</li>
+            <li class="header-info-item">Surf & SUP rentals</li>
+            <li class="header-info-item">Stand up paddle</li>
+            <li class="header-info-item">Surf trips</li>
+          </ul>
+          <div class="header-social">
+            <ul class="header-social-list">
+              <li class="header-social-item">
+                <a href="#" class="header-social-link"><i class="fa-brands fa-facebook"></i></a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">pricing plan</a>
+              <li class="header-social-item">
+                <a href="#" class="header-social-link"><i class="fa-brands fa-instagram"></i></a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">contact us</a>
+              <li class="header-social-item">
+                <a href="#" class="header-social-link"><i class="fa-brands fa-youtube"></i></a>
               </li>
-              <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">about us</a>
+              <li class="header-social-item">
+                <a href="#" class="header-social-link"><i class="fa-brands fa-whatsapp"></i></a>
               </li>
             </ul>
-          </nav>
-          <a class="header-phone" href="tel:+351912568342"
-            ><i class="fa-solid fa-phone"></i>+351912568342</a
-          >
+          </div>
         </div>
-        <img src="./images/logo.png" alt="logo" class="title-img" />
-        <h1 class="title visually-hidden">Surfing School</h1>
-        <p class="title-text">Vilamoura. Portugal</p>
-        <div class="header-content">
-          <div class="header-info">
-            <ul class="header-info-list">
-              <li class="header-info-item">Privat lessons</li>
-              <li class="header-info-item">Group lessons</li>
-              <li class="header-info-item">Surf&sup rentals</li>
-              <li class="header-info-item">Stand up puddle</li>
-              <li class="header-info-item">Surf trips</li>
-            </ul>
-            <div class="header-social">
-              <ul class="header-social-list">
-                <li class="header-social-item">
-                  <a href="#" class="header-social-link"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                </li>
-                <li class="header-social-item">
-                  <a href="#" class="header-social-link"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-                <li class="header-social-item">
-                  <a href="#" class="header-social-link"
-                    ><i class="fa-brands fa-youtube"></i
-                  ></a>
-                </li>
-                <li class="header-social-item">
-                  <a href="#" class="header-social-link"
-                    ><i class="fa-brands fa-whatsapp"></i
-                  ></a>
-                </li>
+        <div class="header-news">
+          <div class="header-news-box">
+            <h3 class="header-news-title">NAZARE. BIG WAvE TRIP</h3>
+            <time class="header-news-time" datetime="2025-02-10">10.02.2025</time>
+            <a href="#" class="header-news-link">more info</a>
+            <img src="./images/newsImage.jpg" alt="news image" />
+          </div>
+          <div class="header-button">
+            <button class="button-book">Book Now</button>
+            <button class="header-button-activities">Activities</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <p class="upperText">
+        "WHAT LOOKS IMPOSSIBLE TODAY, TOMORROW WILL BE YOUR SOURCE OF
+        INSPIRATION AND RELAXATION"
+      </p>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="aboutUs">
+          <div class="leftSide">
+            <div>
+              <p class="titleUpper">Who we are</p>
+              <h2>VILAMOURA SURF SCHOOL</h2>
+              <ul>
+                <li>Algarve</li>
+                <li>South coast</li>
+                <li>Perfect waves for your experience</li>
               </ul>
             </div>
-          </div>
-          <div class="header-news">
-            <div class="header-news-box">
-              <h3 class="header-news-title">NAZARE. BIG WAvE TRIP</h3>
-              <time class="header-news-time" datetime="2025-02-10"
-                >10.02.2025</time
-              >
-              <a href="#" class="header-news-link">more info</a>
-              <img src="./images/newsImage.jpg" alt="news image" />
-            </div>
-            <div class="header-button">
-              <button class="button-book">Book Now</button>
-              <button class="header-button-activities">Activities</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <div class="container">
-        <p class="upperText">
-          "WHAT LOOKS IMPOSSIBLE TODAY, TOMORROW WILL BE YOUR SOURCE OF
-          INSPIRATION AND RELAXATION"
-        </p>
-      </div>
-
-      <section>
-        <div class="container">
-          <div class="aboutUs">
-            <div class="leftSide">
-              <div>
-                <p class="titleUpper">Who we are</p>
-                <h2>VILAMOURA SURF SCHOOL</h2>
-                <ul>
-                  <li>Algarve</li>
-                  <li>South coast</li>
-                  <li>Perfect waves for your experience</li>
-                </ul>
-              </div>
-              <div class="leftSide-content">
-                <p>
-                  Was founded in 2006, being the FIRST SURF SCHOOL OF VILAMOURA
-                  BEACH, ALGARVE. Our school is certified by the Portuguese
-                  Surfing Federation and by Turismo de Portugal. The School aims
-                  to teach the art of surfing the waves in a safe, correct and
-                  relaxed way, always under the close and attentive supervision
-                  of teachers. Thousands of people have already learned from us
-                  to slide on the wave wall on top of a board.
-                </p>
-                <br />
-                <p>
-                  We have facilities that allow our students to equip themselves
-                  and keep their belongings safe and at the end of the class
-                  they have a warm shower at their disposal. We have a wide
-                  variety of safe boards (softboards) and modern wetsuits to
-                  teach in a safe and fun way. The heads of the School are
-                  trained by the Faculty, experienced and accredited by the
-                  Portuguese Surf Federation. The School is open everyday of the
-                  year, including weekends and holidays. Hours vary depending on
-                  tides and sea conditions.
-                </p>
-              </div>
-            </div>
-            <div class="rightSide">
-              <img src="./images/section2 img.jpg" alt="section 2 image" />
-              <p class="rightSide-text">activities</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container activities">
-          <div class="upperSide">
-            <div class="upperSide-title">
-              <p class="titleUpper">Activities</p>
-              <h2>without rip currents - SANDY BEACHES your best adventure</h2>
-            </div>
-            <div class="upperSide-content">
+            <div class="leftSide-content">
               <p>
-                Welcome to our school! If you've come this far, it's because
-                you're interested in taking your first steps in surfing. It's
-                never too late to start riding the waves, you'll love this new
-                lifestyle! Surfing improves your physical and mental health in a
-                relaxed and fun environment. Vilamoura Surf School also offers
-                group and private lessons in Surf, Stand Up Paddle Board,
-                Longboard, Bodyboard, Skimming and Carver Skate Board. If you
-                are looking for to rent our equipment, we have high performance
-                boards and wetsuits.
+                Was founded in 2006, being the FIRST SURF SCHOOL OF VILAMOURA
+                BEACH, ALGARVE. Our school is certified by the Portuguese
+                Surfing Federation and by Turismo de Portugal. The School aims
+                to teach the art of surfing the waves in a safe, correct and
+                relaxed way, always under the close and attentive supervision
+                of teachers. Thousands of people have already learned from us
+                to slide on the wave wall on top of a board.
               </p>
-              <button class="button-book">book now</button>
+              <br />
+              <p>
+                We have facilities that allow our students to equip themselves
+                and keep their belongings safe and at the end of the class
+                they have a warm shower at their disposal. We have a wide
+                variety of safe boards (softboards) and modern wetsuits to
+                teach in a safe and fun way. The heads of the School are
+                trained by the Faculty, experienced and accredited by the
+                Portuguese Surf Federation. The School is open everyday of the
+                year, including weekends and holidays. Hours vary depending on
+                tides and sea conditions.
+              </p>
             </div>
           </div>
-          <div class="bottomSide">
-            <ul>
-              <li>Privat lessons</li>
-              <li>Group lessons</li>
-              <li>Surf &sup rentals</li>
-              <li>Stand up puddle</li>
-              <li>
-                Surf <br />
-                trips
+          <div class="rightSide">
+            <img src="./images/section2 img.jpg" alt="section 2 image" />
+            <p class="rightSide-text">activities</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container activities">
+        <div class="upperSide">
+          <div class="upperSide-title">
+            <p class="titleUpper">Activities</p>
+            <h2>without rip currents - SANDY BEACHES your best adventure</h2>
+          </div>
+          <div class="upperSide-content">
+            <p>
+              Welcome to our school! If you've come this far, it's because
+              you're interested in taking your first steps in surfing. It's
+              never too late to start riding the waves, you'll love this new
+              lifestyle! Surfing improves your physical and mental health in a
+              relaxed and fun environment. Vilamoura Surf School also offers
+              group and private lessons in Surf, Stand Up Paddle Board,
+              Longboard, Bodyboard, Skimming and Carver Skate Board. If you
+              are looking for to rent our equipment, we have high performance
+              boards and wetsuits.
+            </p>
+            <button class="button-book">book now</button>
+          </div>
+        </div>
+        <div class="bottomSide">
+          <ul>
+            <li>Private lessons</li>
+            <li>Group lessons</li>
+            <li>Surf & SUP rentals</li>
+            <li>Stand up paddle</li>
+            <li>
+              Surf <br />
+              trips
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-pic">
+      <img src="./images/section pic.jpg" alt="section picture" />
+    </div>
+
+    <section>
+      <div class="container reviews">
+        <div class="reviewsTop">
+          <p class="titleUpper">Review</p>
+          <h2>let's go surf & sup</h2>
+        </div>
+
+        <!-- slider js  -->
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="reviewsItem pt90">
+                  <img src="./images/reviews1.jpg" alt="review image 1" />
+                  <blockquote>
+                    <p>
+                      "I rented the whole equipment for 7 days. New GEAR! 10
+                      stars."
+                    </p>
+                    <div class="citeTime">
+                      <cite>/Ana</cite>
+                      <time datetime="2024-05-01">May 2023</time>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="reviewsItem">
+                  <img src="./images/reviews2.jpg" alt="review image 2" />
+                  <blockquote>
+                    <p>
+                      "It was an unforgettable experience. The super
+                      professional instructors. I loved it!"
+                    </p>
+                    <div class="citeTime">
+                      <cite>/Sara</cite>
+                      <time datetime="2024-01-01">January 2024</time>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="reviewsItem pt90">
+                  <img src="./images/reviews3.jpg" alt="review image 3" />
+                  <blockquote>
+                    <p>
+                      "Class at the end of the day. Super attentive guys. They
+                      always accompanied the lesson in the water with me. We
+                      fell very safety all the time. Thanks Vilamoura Surf
+                      School"
+                    </p>
+                    <div class="citeTime">
+                      <cite>/Mark</cite>
+                      <time datetime="2024-02-01">February 2024</time>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="reviewsItem">
+                  <img src="./images/reviews4.png" alt="review image 4" />
+                  <blockquote>
+                    <p>The best experience in my life</p>
+                    <div class="citeTime">
+                      <cite>/Tom</cite>
+                      <time datetime="2023-12-01">December 2023</time>
+                    </div>
+                  </blockquote>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-      </section>
-
-      <div class="section-pic">
-        <img src="./images/section pic.jpg" alt="section picture" />
       </div>
+    </section>
+  </main>
 
-      <section>
-        <div class="container reviews">
-          <div class="reviewsTop">
-            <p class="titleUpper">Review</p>
-            <h2>let's go surf & sup</h2>
-          </div>
-
-          <!-- slider js  -->
-          <div class="splide">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <div class="reviewsItem pt90">
-                    <img src="./images/reviews1.jpg" alt="review image 1" />
-                    <blockquote>
-                      <p>
-                        "I rented the whole equipment for 7 days. New GEAR! 10
-                        stars."
-                      </p>
-                      <div class="citeTime">
-                        <cite>/Ana</cite>
-                        <time datetime="2024-05-01">May 2023</time>
-                      </div>
-                    </blockquote>
-                  </div>
-                </li>
-
-                <li class="splide__slide">
-                  <div class="reviewsItem">
-                    <img src="./images/reviews2.jpg" alt="review image 2" />
-                    <blockquote>
-                      <p>
-                        "It was an unforgettable experience. The super
-                        professional instructors. I loved it!"
-                      </p>
-                      <div class="citeTime">
-                        <cite>/Sara</cite>
-                        <time datetime="2024-01-01">January 2024</time>
-                      </div>
-                    </blockquote>
-                  </div>
-                </li>
-
-                <li class="splide__slide">
-                  <div class="reviewsItem pt90">
-                    <img src="./images/reviews3.jpg" alt="review image 3" />
-                    <blockquote>
-                      <p>
-                        "Class at the end of the day. Super attentive guys. They
-                        always accompanied the lesson in the water with me. We
-                        fell very safety all the time. Thanks Vilamoura Surf
-                        School"
-                      </p>
-                      <div class="citeTime">
-                        <cite>/Mark</cite>
-                        <time datetime="2024-02-01">February 2024</time>
-                      </div>
-                    </blockquote>
-                  </div>
-                </li>
-
-                <li class="splide__slide">
-                  <div class="reviewsItem">
-                    <img src="./images/reviews4.png" alt="review image 4" />
-                    <blockquote>
-                      <p>The best experiens in my life</p>
-                      <div class="citeTime">
-                        <cite>/Tom</cite>
-                        <time datetime="2023-12-01">December 2023</time>
-                      </div>
-                    </blockquote>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+  <footer>
+    <div class="container footerContent">
+      <div class="uppperSide">
+        <h2>VILAMOURA SURF SCHOOL</h2>
+        <img src="./images/midLogo.png" alt="logo" />
+      </div>
+      <div class="middleSide">
+        <ul>
+          <li class="liHeader">Surf School</li>
+          <li>
+            record n.325 <br />
+            Portuguese Surfing Federation
+          </li>
+          <li>RNAAT registration 986/2016</li>
+        </ul>
+        <ul>
+          <li class="liHeader">Address</li>
+          <li>
+            record n.325 <br />
+            Portuguese Surfing Federation
+          </li>
+          <li>Vilamoura - Algarve - Portugal</li>
+        </ul>
+        <ul>
+          <li class="liHeader">Contacts</li>
+          <li>
+            Mobile and WhatsApp <br />
+            (+351) 912568342
+          </li>
+          <li>vilamourasurf@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footerbottomSide">
+        <ul class="footerSocial">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </li>
+        </ul>
+        <div class="footerNav">
+          <ul class="footerNav-list">
+            <li>Terms and conditions</li>
+            <li>Privacy policy</li>
+            <li>Complaint book</li>
+          </ul>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
+  </footer>
 
-    <footer>
-      <div class="container"></div>
-    </footer>
-
-    <!-- slider js link  -->
-    <script src="
+  <!-- slider js link  -->
+  <script src="
       https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
       "></script>
 
-    <script src="/js/main.js"></script>
-  </body>
+  <script src="/js/main.js"></script>
+</body>
+
 </html>
